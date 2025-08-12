@@ -7,6 +7,6 @@
 </head>
 <body>
     <a href="">
-        <img src="
+        <img src="">
 </body>
 </html>
