@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Bem vindo!</h1>
-    <a href="">
-        <img class="diminuirImagem" src="../assets/icons/pao-frances-12h-gg.png.webp">
+    
+        <img class="diminuirImagem" src="../assets/icons/Pao.webp">
+        <img class="diminuirImagem" src="../assets/icons/Bolo-de-Chocolate.webp">
 </body>
 </html>
