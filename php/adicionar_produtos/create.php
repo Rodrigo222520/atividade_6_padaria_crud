@@ -5,9 +5,11 @@
     <title>Produtos</title>
 </head>
 <body>
-    <div class="menu">
+    <header class="header_background">
         <a href="">
-            <img class="imagemProdutos" src="" alt="">
+            <img class="header_esquerda" src="../assets/icons/setaMarrom.png" alt="imagem seta marrom">
+            <img src="../assets/logos/Logos.png">
         </a>
+    </header>
 </body>
 </html>
