@@ -12,6 +12,14 @@ body {
 
 .menu{
     background-color: rgb(152, 95, 37);
-     padding: 50 px;
-    margin: 100px;
+    padding: 3px;
+    margin: 10px;
+}
+
+.botaoMenu{
+    
+}
+
+.imagemProdutos{
+    width: 40px;
 }

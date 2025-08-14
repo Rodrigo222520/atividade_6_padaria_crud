@@ -8,7 +8,8 @@
 <body>
     <img class="diminuirImagem" src="../assets/logos/Logo.png">
     <div class="menu">
-        <img src="../assets/icons/Bolo-de-Chocolate.webp" alt="">
+        <div class= "botaoMenu"></div>
+        <img class="imagemProdutos" src="../assets/icons/Bolo-de-Chocolate.webp" alt="">
     </div>
 </body>
 </html>
