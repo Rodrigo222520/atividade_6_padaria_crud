@@ -30,3 +30,9 @@ height: 150px;
 .imagemProdutos{
     width: 40px;
 }
+
+.header_esquerda{
+    background-color: #985f25;
+    height: 150px;
+    padding-left: 100px;
+}
