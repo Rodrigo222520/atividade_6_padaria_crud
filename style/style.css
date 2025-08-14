@@ -7,5 +7,11 @@ body {
 }
 
 .diminuirImagem{
-    width: 100px;
+    width: 900px;
+}
+
+.menu{
+    background-color: rgb(152, 95, 37);
+     padding: 50 px;
+    margin: 100px;
 }

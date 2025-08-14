@@ -6,9 +6,9 @@
     <title>Create</title>
 </head>
 <body>
-    <h1>Bem vindo!</h1>
-    
-        <img class="diminuirImagem" src="../assets/icons/Pao.webp">
-        <img class="diminuirImagem" src="../assets/icons/Bolo-de-Chocolate.webp">
+    <img class="diminuirImagem" src="../assets/logos/Logo.png">
+    <div class="menu">
+        <img src="../assets/icons/Bolo-de-Chocolate.webp" alt="">
+    </div>
 </body>
 </html>
