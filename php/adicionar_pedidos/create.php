@@ -30,7 +30,7 @@
         </a>
        
         <a href="">
-            <button class="botaoMenu">
+            <button class="botaoMenu" style= "padding-top: 4px" >
             <img class="imagemProdutos" src="../../assets/icons/imagemPedidos.webp" alt="">
             <div>
                 <h4>Pedidos</h4>

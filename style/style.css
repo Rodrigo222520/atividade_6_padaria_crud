@@ -22,7 +22,9 @@ height: 150px;
 }
 
 .botaoMenu{
-
+    background-color: rgb(194, 132, 70);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px;
 }
 
 .imagemProdutos{
