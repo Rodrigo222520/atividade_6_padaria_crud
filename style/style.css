@@ -39,5 +39,8 @@ height: 150px;
 
 .quadradoMarrom{
     background-color: #985f25;
-    
+    width: 1000px;
+    color:black;
+    text-align: center;
+    padding-right: 100px;
 }

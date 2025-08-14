@@ -9,8 +9,7 @@
 <footer>
 <div class="header_background">
         <a href="">
-            <img class="header_esquerda" src="../assets/icons/setaMarrom.png" alt="imagem seta marrom">
-            <img src="../assets/logos/Logos.png">
+            <img class="header_esquerda" src="../../assets/icons/setaMarrom.png" alt="imagem seta marrom">
         </a>
 </div>
 </footer>
@@ -20,7 +19,6 @@
         <input type="text" name="R$6,50">
         <h2>Pastel<h2>
         <h4>Feito na hora com uma receita de família<h4>
-        <img src="mais.png">
     <div>
     
 
