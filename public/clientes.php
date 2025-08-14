@@ -1,3 +1,9 @@
+<?php
+
+
+
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,7 +47,7 @@
 
 <style>
   .faixa {
-    background-color: #333;
+    background-color: brown;
     color: white;
     padding: 20px;
     text-align: center;
