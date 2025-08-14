@@ -16,6 +16,11 @@ body {
     margin: 10px;
 }
 
+.header_background{
+background-color: #985f25;
+height: 150px;
+}
+
 .botaoMenu{
 
 }
