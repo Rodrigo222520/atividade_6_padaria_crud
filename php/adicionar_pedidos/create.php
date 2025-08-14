@@ -6,27 +6,39 @@
     <title>Create</title>
 </head>
 <body>
-    <img class="diminuirImagem" src="../assets/logos/Logo.png">
-    <div class="menu">
-        <button class="botaoMenu">
+    <img class="diminuirImagem" src="../assets/logos/Logos.png">
+</body>
+
+<footer>
+     <div class="menu">
+        <a href="">
+            <button class="botaoMenu">
             <img class="imagemProdutos" src="../assets/icons/imagemCarrinho.webp" alt="">
             <div>
                 <h4>Produtos</h4>
             </div>
         </button>
-        <button class="botaoMenu">
+        </a>
+        
+        <a href="">
+             <button class="botaoMenu">
             <img class="imagemProdutos" src="../assets/icons/imagemCliente.webp" alt="">
             <div>
                 <h4>Clientes</h4>
             </div>
         </button>
-       <button class="botaoMenu">
+        </a>
+       
+        <a href="">
+            <button class="botaoMenu">
             <img class="imagemProdutos" src="../assets/icons/imagemPedidos.webp" alt="">
             <div>
                 <h4>Pedidos</h4>
             </div>
         </button>
+        </a>
+       
         
     </div>
-</body>
+</footer>
 </html>
