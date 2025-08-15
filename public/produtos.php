@@ -13,8 +13,10 @@
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-<header class="header_background">
+<header>
+<div class="header_background">
 
+</div>
 </header>
 
 <main>

@@ -12,17 +12,23 @@ body {
 
 .menu{
     background-color: rgb(152, 95, 37);
+    width: 400px;
+    height: 130px;
+    border-radius: 20px;
     padding: 3px;
     margin: 10px;
 }
 
 .header_background{
 background-color: #985f25;
-height: 150px;
+height: 110px;
+border: 0px;
+
 }
 
 .botaoMenu{
     background-color: rgb(194, 132, 70);
+    margin-top: 5px;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
 }

@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
        .imagem-fundo-inferior {
             width: 100vw;
-            height: 200px;
+            height: 300px;
             object-fit: cover;
             display: block;
             border: none;
@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <svg viewBox="0 0 64 64" fill="#dfad7f"><polygon points="44,8 36,0 8,28 36,56 44,48 24,28"/></svg>
         </button>
         <div class="logo-centro">
-            <img src="imagens/logo_padaria.png" alt="Padaria Bumba Meu Pão">
+            <img src="../assets/logos/icone-logo.png" alt="Padaria Bumba Meu Pão">
         </div>
     </div>
     <div class="conteudo-principal">
@@ -176,10 +176,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="campo-grupo">
                     <label for="rg">RG:</label>
                     <input type="text" id="rg" name="rg">
-                </div>
-                <div class="campo-grupo">
-                    <label for="sexo">Sexo</label>
-                    <input type="text" id="sexo" name="sexo">
                 </div>
             </div>
             <div class="linha-campos">
@@ -237,13 +233,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#222" stroke-width="2" fill="#fff"/><path d="M16 16l16 16M32 16L16 32" stroke="#a96b2a" stroke-width="3" stroke-linecap="round"/></svg>
                     Cancelar
                 </button>
-                <button type="button" class="botao-acao" title="Alterar" onclick="alert('Função de alteração não implementada!')">
-                    <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#222" stroke-width="2" fill="#fff"/><path d="M30.5 15.5l2 2c.8.8.8 2 0 2.8l-12 12-4 1 1-4 12-12c.8-.8 2-.8 2.8 0z" stroke="#a96b2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                    Alterar
-                </button>
             </div>
         </form>
     </div>
-    <img class="imagem-fundo-inferior" src="imagens/fundo_paes.png" alt="Pães">
+    <img class="imagem-fundo-inferior" src="../assets/icons/fundo_paes.png" alt="Pães">
 </body>
 </html>
