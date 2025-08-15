@@ -15,8 +15,18 @@
 <body>
 <header>
 <div class="header_background">
+    <div class="posicao_seta">
+        <img src="../assets/icons/seta_voltar.png" alt="Seta de voltar">
+    </div>
+<img class="tamanho_logo" src="../assets/logos/logo_padaria.png" alt="Logo da padaria">
+<div class="botao_produtos">
+<img class="tamanho_icones_produtos" src="../assets/icons/carrinho.png" alt="Carrinho">
+<p>Ver carrinho</p>
 
-</div>
+<div class="botao_produtos">
+<img class="tamanho_icones_produtos" src="../assets/icons/mais.png" alt="Botão de adicionar">
+<p>Adicionar produtos</p>
+
 </header>
 
 <main>
