@@ -12,6 +12,9 @@ body {
 
 .menu{
     background-color: rgb(152, 95, 37);
+    width: 400px;
+    height: 130px;
+    border-radius: 20px;
     padding: 3px;
     margin: 10px;
 }
@@ -23,6 +26,7 @@ height: 150px;
 
 .botaoMenu{
     background-color: rgb(194, 132, 70);
+    margin-top: 5px;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
 }
