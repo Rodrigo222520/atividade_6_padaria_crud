@@ -1,3 +1,25 @@
+<?php
+
+include("../adicionar_pedidos/db.php");
+
+$nome= 0;
+$preco= 0;
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
+    $preco = $_POST['preco'];
+    $nome = $_POST['nome'];
+}
+    $sql = "INSERT INTO produto (nome, preco) VALUES ('$nome', '$preco')";
+    $res = mysqli_query($conn, $sql);
+    if ($conn->query($sql) === true) {
+        echo "Preço cadastrado!";
+    }else{
+        echo "Erro ao cadastrar preço!";
+    }
+        
+
+$conn->close()
+?>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,13 +37,16 @@
 </footer>
 <br>
 <main>
-    <div class="quadradoMarrom">
-        <label for="Preco">Preço:</label>
-        <input type="text" class="menu"><br><br>
-        <label for="Produto">Produto:</label>
-        <input type="text" class="menu">
+
+    <form method="POST" action="create.php">
+        <div class="quadradoMarrom">
+        
+        Preço:<input type="text" class="menu" name="preco"> Preço: <label for="preco">Preço:</label> <br><br>
+        Produto: <input type="text" class="menu" name="produto">Produto: <label for="produto">Produto:</label>
         <img class="diminuirImagem2" src="../../assets/icons/mais.webp">
     <div>
+    </form>
+    
     
 
 </body>
