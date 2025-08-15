@@ -43,7 +43,7 @@ $conn->close()
         
         Preço:<input type="text" class="menu" name="preco"> Preço: <label for="preco">Preço:</label> <br><br>
         Produto: <input type="text" class="menu" name="produto">Produto: <label for="produto">Produto:</label>
-        <img class="diminuirImagem2" src="../../assets/icons/mais.webp">
+        <button><img class="diminuirImagem2" src="../../assets/icons/mais.webp"></button>
     <div>
     </form>
     
