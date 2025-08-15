@@ -41,7 +41,7 @@ $conn->close()
          <label for="produto">Produto:</label><input type="text" class="form_produto" name="produto" required>
        
         <a href="/adicionar_produtos/read_Produtos.php">
-            <button><img class="diminuirImagem2" src="../../assets/icons/mais.webp"></button>
+            <button><img class="diminuir_Imagem2" src="../../assets/icons/mais.webp"></button>
         </a>
     <div>
     </form>
