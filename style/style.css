@@ -6,7 +6,7 @@ body {
     text-align: center;
 }
 
-.diminuirImagem{
+.diminuir_imagem{
     width: 600px;
 }
 
@@ -53,27 +53,40 @@ display: flex;
 align-items: center;
 }
 
-.botaoMenu{
+.botao_menu{
     background-color: rgb(194, 132, 70);
     margin-top: 5px;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
 }
 
-.imagemProdutos{
+.imagem_produtos{
     width: 40px;
 }
 
 .header_esquerda{
     background-color: #985f25;
-    height: 150px;
-    padding-left: 100px;
+    width:110px;
 }
 
-.quadradoMarrom{
-    background-color: #985f25;
-    width: 1000px;
+.quadrado_marrom{
+    background-color: peru;
+    width: 300px;
+    padding: 50px;
+    margin: 150px;
     color:black;
-    text-align: center;
-    padding-right: 100px;
+    border-radius: 10%;
+    margin-left:750px;
+}
+
+.diminuir_imagem2{
+    width:60px;
+}
+
+.form_produto{
+    background-color: rgb(152, 95, 37);
+    width: 300px;
+    border-radius: 20px;
+    padding: 3px;
+ 
 }
