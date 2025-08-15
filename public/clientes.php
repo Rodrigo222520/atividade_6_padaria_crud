@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
        .imagem-fundo-inferior {
             width: 100vw;
-            height: 250px;
+            height: 300px;
             object-fit: cover;
             display: block;
             border: none;
