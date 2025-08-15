@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         .faixa-cabecalho {
             background: rgb(169, 107, 42);
-            height: 100px;
+            height: 130px;
             width: 100vw;
             position: relative;
             display: flex;
@@ -139,9 +139,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             width: 42px;
             height: 42px;
         }
-        .imagem-fundo-inferior {
+       .imagem-fundo-inferior {
             width: 100vw;
-            height: 121px;
+            height: 200px;
             object-fit: cover;
             display: block;
             border: none;
