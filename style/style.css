@@ -19,17 +19,15 @@ body {
     margin: 10px;
 }
 
-<<<<<<< HEAD
 .tamanho_logo{
     width: 120px;
-    padding-left: 700px;
 }
 
 .posicao_seta{
-    padding-left: 20px;
+  padding-right: 100px;
 }
 
-.botao_ver_carrinho{
+#botao_ver_carrinho{
     background-color: rgb(194, 132, 70);
     width: 230px;
     height: 100px;
@@ -38,8 +36,7 @@ body {
     margin-left: 190px;
     font-weight: bold;
 }
-
-.botao_adicionar_produtos{
+#botao_adicionar_produtos{
     background-color: rgb(194, 132, 70);
     width: 230px;
     height: 100px;
@@ -50,7 +47,7 @@ body {
 }
 
 #imagem_produtos{
-    width: 1903px;
+    width: 1520px;
 }
 
 #tamanho_icone_carrinho{
@@ -64,13 +61,10 @@ body {
     padding-top: 12px;
 }
 
-=======
->>>>>>> b4ecb64ac41c62aa164ae43323b15055f23b1cce
 .header_background{
 background-color: #985f25;
 height: 110px;
 border: 0px;
-
 }
 
 .botao_menu{
