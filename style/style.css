@@ -10,10 +10,6 @@ body {
     width: 600px;
 }
 
-.display_flex{
-    display: flex;
-}
-
 .menu{
     background-color: rgb(152, 95, 37);
     width: 400px;
@@ -23,6 +19,7 @@ body {
     margin: 10px;
 }
 
+<<<<<<< HEAD
 .tamanho_logo{
     width: 120px;
     padding-left: 700px;
@@ -67,11 +64,13 @@ body {
     padding-top: 12px;
 }
 
+=======
+>>>>>>> b4ecb64ac41c62aa164ae43323b15055f23b1cce
 .header_background{
 background-color: #985f25;
 height: 110px;
-display: flex;
-align-items: center;
+border: 0px;
+
 }
 
 .botao_menu{
