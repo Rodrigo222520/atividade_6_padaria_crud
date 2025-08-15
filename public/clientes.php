@@ -141,7 +141,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
        .imagem-fundo-inferior {
             width: 100vw;
-            height: 200px;
+            height: 250px;
             object-fit: cover;
             display: block;
             border: none;
@@ -160,7 +160,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <svg viewBox="0 0 64 64" fill="#dfad7f"><polygon points="44,8 36,0 8,28 36,56 44,48 24,28"/></svg>
         </button>
         <div class="logo-centro">
-            <img src="../assets/logos/logo_padaria.png" alt="Padaria Bumba Meu Pão">
+            <img src="../assets/logos/icones-logo-padaria.png" alt="Padaria Bumba Meu Pão">
         </div>
     </div>
     <div class="conteudo-principal">
