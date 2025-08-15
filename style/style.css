@@ -10,10 +10,6 @@ body {
     width: 600px;
 }
 
-.display_flex{
-    display: flex;
-}
-
 .menu{
     background-color: rgb(152, 95, 37);
     width: 400px;
@@ -23,6 +19,7 @@ body {
     margin: 10px;
 }
 
+<<<<<<< HEAD
 .tamanho_logo{
     width: 120px;
     padding-left: 700px;
@@ -32,7 +29,7 @@ body {
     padding-left: 20px;
 }
 
-.botao_produtos{
+.botao_ver_carrinho{
     background-color: rgb(194, 132, 70);
     width: 230px;
     height: 100px;
@@ -42,15 +39,38 @@ body {
     font-weight: bold;
 }
 
-.tamanho_icones_produtos{
-    width: 80px;
+.botao_adicionar_produtos{
+    background-color: rgb(194, 132, 70);
+    width: 230px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
 }
 
+#imagem_produtos{
+    width: 1903px;
+}
+
+#tamanho_icone_carrinho{
+    width: 65px;
+    padding-top: 12px;
+}
+
+#tamanho_icone_adicionar{
+    width: 65px;
+    padding-left: 85px;
+    padding-top: 12px;
+}
+
+=======
+>>>>>>> b4ecb64ac41c62aa164ae43323b15055f23b1cce
 .header_background{
 background-color: #985f25;
 height: 110px;
-display: flex;
-align-items: center;
+border: 0px;
+
 }
 
 .botao_menu{
