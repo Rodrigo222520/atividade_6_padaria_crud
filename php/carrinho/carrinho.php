@@ -9,15 +9,15 @@
     $quantidade = isset($_POST['quantidade']) ? intval($_POST['quantidade']) : 1;
 
     //Indentificando sobre se há algo no carrinho
-    if (!isset($_SESSION['carrinho'])) {
-        $_SESSION['carrinho'] = [];
+    if (!isset($_SERVER['carrinho'])) {
+        $_SERVER['carrinho'] = [];
     }
 
     //Se houver item no carrinho ele compara os itens e caso tenha itens repetidos ele junta e aumenta a quantidade de itens, se não ele continua com 1 de quantidade
-    if (isset($_SESSION['carrinho'][$id_produto])) {
-        $_SESSION['carrinho'][$id_produto] += $quantidade;
+    if (isset($_SERVER['carrinho'][$id_produto])) {
+        $_SERVER['carrinho'][$id_produto] += $quantidade;
     } else {
-        $_SESSION['carrinho'][$id_produto] = $quantidade;
+        $_SERVER['carrinho'][$id_produto] = $quantidade;
     }
 }   
     
@@ -25,7 +25,7 @@
     echo "<h1>Seu Carrinho</h1>";
 
     //Se não houver nenhum item no carrinho ele aparecerá a mensagem "carrinho vazio" e aparecerá a opção de voltar para produtos
-    if (empty($_SESSION['carrinho'])) {
+    if (empty($_SERVER['carrinho'])) {
         echo "Carrinho vazio<br>";
         echo "<a href='produtos.php'>Voltar para Produtos</a>";
         exit;
@@ -35,7 +35,7 @@
     $total = 0;
 
     //Busca dentro do banco de dados os produtos
-    foreach ($_SESSION['carrinho'] as $id_produto => $quantidade) {
+    foreach ($_SERVER['carrinho'] as $id_produto => $quantidade) {
     $sql = "SELECT * FROM produto WHERE id = $id_produto";
     $result = $conn->query($sql);
     $produto = $result->fetch_assoc();
