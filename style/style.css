@@ -33,14 +33,19 @@ height: 150px;
 
 .header_esquerda{
     background-color: #985f25;
-    height: 150px;
-    padding-left: 100px;
+    width:150px;
 }
 
 .quadradoMarrom{
-    background-color: #985f25;
-    width: 1000px;
+    background-color: peru;
+    width: 300px;
+    padding: 50px;
+    margin: 150px;
     color:black;
-    text-align: center;
-    padding-right: 100px;
+    border-radius: 10%;
+    margin-left:750px;
+}
+
+.diminuirImagem2{
+    width:50px;
 }
