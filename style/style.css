@@ -39,7 +39,7 @@ border: 0px;
 
 .header_esquerda{
     background-color: #985f25;
-    width:150px;
+    width:110px;
 }
 
 .quadradoMarrom{
@@ -53,5 +53,13 @@ border: 0px;
 }
 
 .diminuirImagem2{
-    width:50px;
+    width:60px;
+}
+
+.formProduto{
+    background-color: rgb(152, 95, 37);
+    width: 300px;
+    border-radius: 20px;
+    padding: 3px;
+ 
 }

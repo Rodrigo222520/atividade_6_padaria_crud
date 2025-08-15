@@ -17,9 +17,9 @@
 <main>
     <div class="quadradoMarrom">
         <label for="Preco">Preço:</label>
-        <input type="text" class="menu"><br><br>
+        <input type="text" class="formProduto"><br><br>
         <label for="Produto">Produto:</label>
-        <input type="text" class="menu">
+        <input type="text" class="formProduto">
         <img class="diminuirImagem2" src="../../assets/icons/mais.webp">
     <div>
     
