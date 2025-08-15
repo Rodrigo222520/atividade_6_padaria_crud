@@ -45,24 +45,45 @@
 </button>
 </div>
 <div class="produtos">
-<img class="tamanho_imagem_produtos "src="../assets/icons/Pao.webp" alt="Imagem do pão">
+<img class="tamanho_imagem_produtos "src="../assets/icons/Bolo-de-Chocolate.webp" alt="Imagem do bolo">
 <div class="preços"><p>R$6,50</p></div>
-<p class="texto_produtos">Pão Frances</p>
+<p class="texto_produtos">Bolo de chocolate</p>
+<button class="mini_carrinho">
+    <img class="imagem_mini_carrinho" src="../assets/icons/imagemCarrinho.webp" alt="Imagem do carrinho">
+</button>
+<div class="produtos">
+<img class="tamanho_imagem_produtos "src="../assets/icons/Croissant.jpg" alt="Imagem do croissant">
+<div class="preços"><p>R$6,50</p></div>
+<p class="texto_produtos">Croissant</p>
+<button class="mini_carrinho">
+    <img class="imagem_mini_carrinho" src="../assets/icons/imagemCarrinho.webp" alt="Imagem do carrinho">
+</button>
+<div class="produtos">
+<img class="tamanho_imagem_produtos" src="../assets/icons/Pastel.webp" alt="Imagem do pastel">
+<div class="preços"><p>R$6,50</p></div>
+<p class="texto_produtos">Pastel</p>
+<button class="mini_carrinho">
+    <img class="imagem_mini_carrinho" src="../assets/icons/imagemCarrinho.webp" alt="Imagem do carrinho">
+</button>
+</div>
+<div class="produtos">
+<img class="tamanho_imagem_produtos" src="../assets/icons/Pão de Queijo.jpg" alt="Imagem do pão de queijo">
+<div class="preços"><p>R$6,50</p></div>
+<p class="texto_produtos">Pão de queijo</p>
 <button class="mini_carrinho">
     <img class="imagem_mini_carrinho" src="../assets/icons/imagemCarrinho.webp" alt="Imagem do carrinho">
 </button>
 </div>
 </div>
+</div>
 
 
+
+</div>
 </main>
 
 <footer>
-    <img src="../assets/icons/pao.webp">
-    <img src="../assets/icons/Bolo-de-chocolate">
-    <img src="../assets/icons/Croissant.jpg">
-    <img src="../assets/icons/pastel.webp">
-    <img src="../assets/icons/Pão de queijo.jpg">
+
 </footer>
 </body>
 </html>
