@@ -21,7 +21,9 @@ body {
 
 .header_background{
 background-color: #985f25;
-height: 150px;
+height: 110px;
+border: 0px;
+
 }
 
 .botaoMenu{
