@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <a href="../adicionar_pedidos/create.php">
+    <a href="../adicionar_pedidos/createPedidos.php">
              <button class="botaoMenu">
             <img class="imagemProdutos" src="../../assets/icons/imagemCliente.webp" alt="">
             <div>
@@ -16,7 +16,7 @@
         </button>
     </a>
 
-    <a href="../adicionar_produtos/create.php">
+    <a href="../adicionar_produtos/createProdutos.php">
              <button class="botaoMenu">
             <img class="imagemProdutos" src="../../assets/icons/imagemCliente.webp" alt="">
             <div>
