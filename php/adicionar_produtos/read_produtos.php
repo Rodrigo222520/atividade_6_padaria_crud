@@ -2,7 +2,7 @@
 
 include 'db.php';
 
-$sql = "SELECT * FROM usuarios";
+$sql = "SELECT * FROM produto";
 
 $result = $conn->query($sql);
 
@@ -12,9 +12,9 @@ if ($result->num_rows > 0) {
         <tr>
             <th> ID </th>
             <th> Nome </th>
-            <th> Email </th>
+            <th> Preço </th>
+            <th> Estoque </th>
             <th> Data de Criação </th>
-            <th> Ações </th>
         </tr>
          ";
 
@@ -22,12 +22,13 @@ if ($result->num_rows > 0) {
 
         echo "<tr>
                 <td> {$row['id']} </td>
-                <td> {$row['name']} </td>
-                <td> {$row['email']} </td>
+                <td> {$row['nome']} </td>
+                <td> {$row['preco']} </td>
+                <td> {$row['estoque']} </td>
                 <td> {$row['created_at']} </td>
                 <td> 
-                    <a href='update.php?id={$row['id']}'>Editar<a>
-                    <a href='delete.php?id={$row['id']}'>Excluir<a>
+                    <a href='update_produtos.php?id={$row['id']}'>Editar<a>
+                    <a href='delete_produtos.php?id={$row['id']}'>Excluir<a>
                 
                 </td>
               </tr>   
@@ -40,6 +41,6 @@ if ($result->num_rows > 0) {
 
 $conn -> close();
 
-echo "<a href='create.php'>Inserir novo Registro</a>";
+echo "<a href='create_produtos.php'>Inserir novo Registro</a>";
 
 ?>
