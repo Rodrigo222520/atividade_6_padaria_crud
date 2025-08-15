@@ -35,6 +35,26 @@
 
 <main>
 <img id="imagem_produtos" src="../assets/icons/imagem_produtos.png" alt="Imagem de Produtos">
+<div class="display_flex_produtos">
+<div class="produtos">
+<img class="tamanho_imagem_produtos "src="../assets/icons/Pao.webp" alt="Imagem do pão">
+<div class="preços"><p>R$6,50</p></div>
+<p class="texto_produtos">Pão Frances</p>
+<button class="mini_carrinho">
+    <img class="imagem_mini_carrinho" src="../assets/icons/imagemCarrinho.webp" alt="Imagem do carrinho">
+</button>
+</div>
+<div class="produtos">
+<img class="tamanho_imagem_produtos "src="../assets/icons/Pao.webp" alt="Imagem do pão">
+<div class="preços"><p>R$6,50</p></div>
+<p class="texto_produtos">Pão Frances</p>
+<button class="mini_carrinho">
+    <img class="imagem_mini_carrinho" src="../assets/icons/imagemCarrinho.webp" alt="Imagem do carrinho">
+</button>
+</div>
+</div>
+
+
 </main>
 
 <footer>
