@@ -83,7 +83,23 @@
 </main>
 
 <footer>
+<<<<<<< HEAD
 
+=======
+    <img src="../assets/icons/pao.webp">
+    <img src="../assets/icons/Bolo-de-chocolate">
+    <img src="../assets/icons/Croissant.jpg">
+    <img src="../assets/icons/pastel.webp">
+    <img src="../assets/icons/Pão de queijo.jpg">
+
+<div class="display flex"></div>
+    <h3>Pão francês</h3>
+    <h3>Salgados</h3>
+    <h3>Bebidas</h3>
+    <h3>Pães</h3>
+    <h3>Produtos integrais</h3>
+    <h3>Produtos sazonais</h3>
+>>>>>>> 60de8cea0da16f2ecf25f87dcbd6f304bdad7a24
 </footer>
 </body>
 </html>
