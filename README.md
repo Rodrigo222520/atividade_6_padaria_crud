@@ -6,7 +6,7 @@ O Bumba meu pão é um sistema para uma padaria que visa a responsividade. Com e
 > [!IMPORTANT]
 > Aplicativo da padaria Bumba meu pão.
 ## Acesse o Bumba meu pão
-[GabrielKyochi.github.io/atividade_6_padaria_crud](https://github.com/GabrielKyochi/atividade_6_padaria_crud)
+[GabrielKyochi.github.io/atividade_6_padaria_crud](http://localhost:90/atividade_6_padaria_crud/atividade_6_padaria_crud/php/adicionar_pedidos/create_pedidos.php)
 ## Equipe
 A equipe de desenvolvimento faz parte da turma DS23 1 M1, do SENAI SC.
 - Gabriel K. B. [Líder]
