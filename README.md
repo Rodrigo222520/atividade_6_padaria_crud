@@ -1,5 +1,5 @@
 # Bumba meu pão
-<img src="assets/logos/Logo.png" alt="Logotipo do Bumba meu pão" width="200"/>
+<img src="assets/logos/icone-logo-padaria.png" alt="Logotipo do Bumba meu pão" width="200"/>
 
 ## Sobre o Bumba meu pão
 O Bumba meu pão é um sistema para uma padaria que visa a responsividade. Com ele você pode gerenciar os produtos, categorias, clientes, pedidos, etc...
