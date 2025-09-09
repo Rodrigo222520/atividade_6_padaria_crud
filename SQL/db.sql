@@ -1,0 +1,45 @@
+CREATE DATABASE bumba_pao;
+
+USE bumba_pao;
+
+CREATE TABLE usuario (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    RG VARCHAR(10) NULL,
+    senha varchar (100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE pedido (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    tipo VARCHAR(150) NOT NULL UNIQUE,
+    valor VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE cliente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    CPF VARCHAR(10) NULL,
+    RG VARCHAR(10) NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+ALTER TABLE pedido
+ADD CONSTRAINT fk_pedido_idpedido
+foreign key (id_pedido) REFERENCES pedido(id);
+
+CREATE DATABASE login_db;
+USE login_db;
+
+
+CREATE TABLE usuarios (
+	pk INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(120) NOT NULL UNIQUE,
+    senha VARCHAR(255) NOT NULL
+);
+
+INSERT INTO usuarios (username, senha) VALUES ('admin', '123');

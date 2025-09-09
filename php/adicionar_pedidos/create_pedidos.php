@@ -37,7 +37,14 @@
             </div>
         </button>
         </a>
+
+        <br>
+        <br>
+        <br>
        
+        <a href = "../../Login/login.php">
+            <button type="submit">Voltar</button>
+        </a>
         
     </div>
 </footer>
