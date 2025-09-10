@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $user = $_POST["username"] ?? "";
     $pass = $_POST["password"] ?? "";
 
-    $stmt = $mysqli->prepare("SELECT id, username, senha FROM usuarios WHERE username=? AND senha=?");
+    $stmt = $mysqli->prepare("SELECT id, username, senha FROM usuario WHERE username=? AND senha=?");
     $stmt->bind_param("ss", $user, $pass);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -46,8 +46,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
 
 <?php if (!empty($_SESSION["user_id"])): ?>
-    header("Location: "adicionar_pedidos/read_pedidos.php");
-  
+  <div class="card">
+    <h3>Bem-vindo, <?= $_SESSION["username"] ?>!</h3>
+    <p>Sessão ativa.</p>
+    <p><a href="?logout=1">Sair</a></p>
+    <h4>Para fazer seus pedidos:</h4>
+    <p><a href="../php/adicionar_pedidos/create_pedidos.php">Clique aqui</a></p>
+  </div>
+
 <?php else: ?>
   <div class="card">
     <h3>Login</h3>
@@ -55,9 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <form method="post">
       <input type="text" name="username" placeholder="Usuário" required>
       <input type="password" name="password" placeholder="Senha" required>
-      <a href = "../php/adicionar_pedidos/create_pedidos.php">
       <button type="submit">Entrar</button>
-      </a>
     </form>
     <p><small>Dica: admin / 123456</small></p>
   </div>
